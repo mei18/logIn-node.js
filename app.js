@@ -13,9 +13,9 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res) {
   var username=req.body.username;
   var password=req.body.password;
-  res.send("The Username you posted:"+username+"and the Password: "+password);
-  console.log("Username is:" + username);
-  console.log("Password is:" + password);
+  res.send("The Username you posted: "+username+"and the Password: "+password);
+  console.log("Username is: " + username);
+  console.log("Password is: " + password);
 
 });
 
