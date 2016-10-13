@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded());
 
 app.get('/', function (req, res) {
   res.sendfile("./index.html");
-  console.log("get");
+  console.log("obtener ruta");
 });
 
 app.post('/', function (req, res) {
